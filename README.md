@@ -17,4 +17,4 @@ TTHandDragView:
 
 TTDragImageView:
 
-TTColor:
+TTColor: Using Hexadecimal (16) to present UIColor. 

@@ -9,6 +9,7 @@
 #import "TTViewController.h"
 #import <QuartzCore/QuartzCore.h>
 #import "TTColor.h"
+#import <MBProgressHUD.h>
 
 @interface TTViewController ()
 
@@ -60,16 +61,38 @@
     int randNum = rand()%[colorAry count];
     
     
+    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    [hud setMode:MBProgressHUDModeText];
+    [hud setLabelText:[colorAry objectAtIndex:randNum]];    
     
-    CATransition *fadeTransition = [CATransition animation];
-    [fadeTransition setDuration:0.3];
-    [fadeTransition setTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut]];
-    fadeTransition.type = kCATransitionFade;
-    [fadeTransition setFillMode:kCAFillModeForwards];
-    [fadeTransition setRemovedOnCompletion:YES];
-    [self.view.layer addAnimation:fadeTransition forKey:@"fadeAnimation"];
-    [self.view setBackgroundColor:[TTColor colorFromHexRGB:[colorAry objectAtIndex:randNum]]];
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_LOW, 0), ^{
+        sleep(1);
+        CATransition *fadeTransition = [CATransition animation];
+        [fadeTransition setDuration:1.5];
+        [fadeTransition setTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut]];
+        fadeTransition.type = kCATransitionFade;
+        [fadeTransition setFillMode:kCAFillModeForwards];
+        [fadeTransition setRemovedOnCompletion:YES];
+        [self.view.layer addAnimation:fadeTransition forKey:@"fadeAnimation"];
+        [self.view setBackgroundColor:[TTColor colorFromHexRGB:[colorAry objectAtIndex:randNum]]];
+        
+        
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            
+            
+            
+            [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
+            
+            
+        });
+        
+    });
     
+    
+    
+    
+        
     
     
 

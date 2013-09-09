@@ -1,6 +1,5 @@
 //
 //  TTFlatButton.m
-//  Makong Camera
 //
 //  Created by TinTint on 13/8/16.
 //  Copyright (c) 2013年 TinTint. All rights reserved.

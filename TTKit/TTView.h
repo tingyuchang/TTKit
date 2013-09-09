@@ -1,6 +1,5 @@
 //
 //  TTView.h
-//  Makong Camera
 //
 //  Created by TinTint on 13/8/15.
 //  Copyright (c) 2013年 TinTint. All rights reserved.

@@ -18,6 +18,18 @@
 		F1D3081C17DD7A7400627E67 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D3081B17DD7A7400627E67 /* Default@2x.png */; };
 		F1D3081E17DD7A7400627E67 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D3081D17DD7A7400627E67 /* Default-568h@2x.png */; };
 		F1D3082117DD7A7400627E67 /* TTKit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F1D3081F17DD7A7400627E67 /* TTKit.xcdatamodeld */; };
+		F1D3082917DD7A9400627E67 /* TTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D3082817DD7A9400627E67 /* TTViewController.m */; };
+		F1D3082C17DD7AF600627E67 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D3082B17DD7AF600627E67 /* CoreLocation.framework */; };
+		F1D3083B17DD7B0300627E67 /* TTView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D3082E17DD7B0300627E67 /* TTView.m */; };
+		F1D3083C17DD7B0300627E67 /* TTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D3083017DD7B0300627E67 /* TTButton.m */; };
+		F1D3083D17DD7B0300627E67 /* TTFlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D3083217DD7B0300627E67 /* TTFlatButton.m */; };
+		F1D3083E17DD7B0300627E67 /* TTLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D3083417DD7B0300627E67 /* TTLabel.m */; };
+		F1D3083F17DD7B0300627E67 /* TTHandDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D3083617DD7B0300627E67 /* TTHandDragView.m */; };
+		F1D3084017DD7B0300627E67 /* TTDragImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D3083817DD7B0300627E67 /* TTDragImageView.m */; };
+		F1D3084117DD7B0300627E67 /* TTColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D3083A17DD7B0300627E67 /* TTColor.m */; };
+		F1D3084517DD7B1D00627E67 /* SIAlertView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F1D3084217DD7B1D00627E67 /* SIAlertView.bundle */; };
+		F1D3084617DD7B1D00627E67 /* SIAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D3084417DD7B1D00627E67 /* SIAlertView.m */; };
+		F1D3084917DD7B4200627E67 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D3084817DD7B4200627E67 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +48,27 @@
 		F1D3081B17DD7A7400627E67 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		F1D3081D17DD7A7400627E67 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F1D3082017DD7A7400627E67 /* TTKit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TTKit.xcdatamodel; sourceTree = "<group>"; };
+		F1D3082717DD7A9400627E67 /* TTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTViewController.h; sourceTree = "<group>"; };
+		F1D3082817DD7A9400627E67 /* TTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTViewController.m; sourceTree = "<group>"; };
+		F1D3082B17DD7AF600627E67 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F1D3082D17DD7B0300627E67 /* TTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTView.h; sourceTree = "<group>"; };
+		F1D3082E17DD7B0300627E67 /* TTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTView.m; sourceTree = "<group>"; };
+		F1D3082F17DD7B0300627E67 /* TTButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTButton.h; sourceTree = "<group>"; };
+		F1D3083017DD7B0300627E67 /* TTButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTButton.m; sourceTree = "<group>"; };
+		F1D3083117DD7B0300627E67 /* TTFlatButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTFlatButton.h; sourceTree = "<group>"; };
+		F1D3083217DD7B0300627E67 /* TTFlatButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTFlatButton.m; sourceTree = "<group>"; };
+		F1D3083317DD7B0300627E67 /* TTLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTLabel.h; sourceTree = "<group>"; };
+		F1D3083417DD7B0300627E67 /* TTLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTLabel.m; sourceTree = "<group>"; };
+		F1D3083517DD7B0300627E67 /* TTHandDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTHandDragView.h; sourceTree = "<group>"; };
+		F1D3083617DD7B0300627E67 /* TTHandDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTHandDragView.m; sourceTree = "<group>"; };
+		F1D3083717DD7B0300627E67 /* TTDragImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDragImageView.h; sourceTree = "<group>"; };
+		F1D3083817DD7B0300627E67 /* TTDragImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTDragImageView.m; sourceTree = "<group>"; };
+		F1D3083917DD7B0300627E67 /* TTColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTColor.h; sourceTree = "<group>"; };
+		F1D3083A17DD7B0300627E67 /* TTColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTColor.m; sourceTree = "<group>"; };
+		F1D3084217DD7B1D00627E67 /* SIAlertView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SIAlertView.bundle; sourceTree = "<group>"; };
+		F1D3084317DD7B1D00627E67 /* SIAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIAlertView.h; sourceTree = "<group>"; };
+		F1D3084417DD7B1D00627E67 /* SIAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIAlertView.m; sourceTree = "<group>"; };
+		F1D3084817DD7B4200627E67 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1D3084917DD7B4200627E67 /* QuartzCore.framework in Frameworks */,
+				F1D3082C17DD7AF600627E67 /* CoreLocation.framework in Frameworks */,
 				F1D3080617DD7A7400627E67 /* UIKit.framework in Frameworks */,
 				F1D3080817DD7A7400627E67 /* Foundation.framework in Frameworks */,
 				F1D3080A17DD7A7400627E67 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +91,8 @@
 		F1D307F917DD7A7400627E67 = {
 			isa = PBXGroup;
 			children = (
+				F1D3084A17DD7B5400627E67 /* TTKit items */,
+				F1D3084717DD7B2000627E67 /* SIAlertView */,
 				F1D3080D17DD7A7400627E67 /* TTKit */,
 				F1D3080417DD7A7400627E67 /* Frameworks */,
 				F1D3080317DD7A7400627E67 /* Products */,
@@ -73,6 +110,8 @@
 		F1D3080417DD7A7400627E67 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F1D3084817DD7B4200627E67 /* QuartzCore.framework */,
+				F1D3082B17DD7AF600627E67 /* CoreLocation.framework */,
 				F1D3080517DD7A7400627E67 /* UIKit.framework */,
 				F1D3080717DD7A7400627E67 /* Foundation.framework */,
 				F1D3080917DD7A7400627E67 /* CoreGraphics.framework */,
@@ -84,9 +123,11 @@
 		F1D3080D17DD7A7400627E67 /* TTKit */ = {
 			isa = PBXGroup;
 			children = (
+				F1D3081F17DD7A7400627E67 /* TTKit.xcdatamodeld */,
 				F1D3081617DD7A7400627E67 /* TTAppDelegate.h */,
 				F1D3081717DD7A7400627E67 /* TTAppDelegate.m */,
-				F1D3081F17DD7A7400627E67 /* TTKit.xcdatamodeld */,
+				F1D3082717DD7A9400627E67 /* TTViewController.h */,
+				F1D3082817DD7A9400627E67 /* TTViewController.m */,
 				F1D3080E17DD7A7400627E67 /* Supporting Files */,
 			);
 			path = TTKit;
@@ -104,6 +145,38 @@
 				F1D3081D17DD7A7400627E67 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1D3084717DD7B2000627E67 /* SIAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				F1D3084217DD7B1D00627E67 /* SIAlertView.bundle */,
+				F1D3084317DD7B1D00627E67 /* SIAlertView.h */,
+				F1D3084417DD7B1D00627E67 /* SIAlertView.m */,
+			);
+			name = SIAlertView;
+			sourceTree = "<group>";
+		};
+		F1D3084A17DD7B5400627E67 /* TTKit items */ = {
+			isa = PBXGroup;
+			children = (
+				F1D3082D17DD7B0300627E67 /* TTView.h */,
+				F1D3082E17DD7B0300627E67 /* TTView.m */,
+				F1D3082F17DD7B0300627E67 /* TTButton.h */,
+				F1D3083017DD7B0300627E67 /* TTButton.m */,
+				F1D3083117DD7B0300627E67 /* TTFlatButton.h */,
+				F1D3083217DD7B0300627E67 /* TTFlatButton.m */,
+				F1D3083317DD7B0300627E67 /* TTLabel.h */,
+				F1D3083417DD7B0300627E67 /* TTLabel.m */,
+				F1D3083517DD7B0300627E67 /* TTHandDragView.h */,
+				F1D3083617DD7B0300627E67 /* TTHandDragView.m */,
+				F1D3083717DD7B0300627E67 /* TTDragImageView.h */,
+				F1D3083817DD7B0300627E67 /* TTDragImageView.m */,
+				F1D3083917DD7B0300627E67 /* TTColor.h */,
+				F1D3083A17DD7B0300627E67 /* TTColor.m */,
+			);
+			name = "TTKit items";
+			path = TTKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +235,7 @@
 				F1D3081A17DD7A7400627E67 /* Default.png in Resources */,
 				F1D3081C17DD7A7400627E67 /* Default@2x.png in Resources */,
 				F1D3081E17DD7A7400627E67 /* Default-568h@2x.png in Resources */,
+				F1D3084517DD7B1D00627E67 /* SIAlertView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +249,15 @@
 				F1D3081417DD7A7400627E67 /* main.m in Sources */,
 				F1D3081817DD7A7400627E67 /* TTAppDelegate.m in Sources */,
 				F1D3082117DD7A7400627E67 /* TTKit.xcdatamodeld in Sources */,
+				F1D3082917DD7A9400627E67 /* TTViewController.m in Sources */,
+				F1D3083B17DD7B0300627E67 /* TTView.m in Sources */,
+				F1D3083C17DD7B0300627E67 /* TTButton.m in Sources */,
+				F1D3083D17DD7B0300627E67 /* TTFlatButton.m in Sources */,
+				F1D3083E17DD7B0300627E67 /* TTLabel.m in Sources */,
+				F1D3083F17DD7B0300627E67 /* TTHandDragView.m in Sources */,
+				F1D3084017DD7B0300627E67 /* TTDragImageView.m in Sources */,
+				F1D3084117DD7B0300627E67 /* TTColor.m in Sources */,
+				F1D3084617DD7B1D00627E67 /* SIAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

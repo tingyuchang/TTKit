@@ -1,5 +1,5 @@
 //
-//  TTColorDemoViewController.h
+//  TTFlowLayout.h
 //  TTKit
 //
 //  Created by TinTint on 13/9/10.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TTColorDemoViewController : UIViewController<UICollectionViewDataSource, UICollectionViewDelegate>
+@interface TTFlowLayout : UICollectionViewFlowLayout
 
 @end

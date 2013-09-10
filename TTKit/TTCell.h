@@ -1,5 +1,5 @@
 //
-//  TTColorDemoViewController.h
+//  TTCell.h
 //  TTKit
 //
 //  Created by TinTint on 13/9/10.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TTColorDemoViewController : UIViewController<UICollectionViewDataSource, UICollectionViewDelegate>
+@interface TTCell : UICollectionViewCell
+
+@property (strong, nonatomic) UILabel *textLabel;
 
 @end

@@ -1,21 +1,21 @@
 //
-//  TTViewController.m
+//  TTColorDemoViewController.m
 //  TTKit
 //
-//  Created by TinTint on 13/9/9.
+//  Created by TinTint on 13/9/10.
 //  Copyright (c) 2013年 TinTint. All rights reserved.
 //
 
-#import "TTViewController.h"
+#import "TTColorDemoViewController.h"
 #import <QuartzCore/QuartzCore.h>
 #import "TTColor.h"
 #import <MBProgressHUD.h>
 
-@interface TTViewController ()
+@interface TTColorDemoViewController ()
 
 @end
 
-@implementation TTViewController
+@implementation TTColorDemoViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -30,18 +30,18 @@
 {
     [super viewDidLoad];
     
-    UIButton *changeColorBtn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [self.navigationItem setTitle:@"TTCOLOR"];
+    
+    
+    
+	UIButton *changeColorBtn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [changeColorBtn setFrame:CGRectMake(0, 0, 100, 30)];
     [changeColorBtn setCenter:CGPointMake(self.view.frame.size.width/2, self.view.frame.size.height/2)];
     [changeColorBtn setTitle:@"Change" forState:UIControlStateNormal];
     [changeColorBtn addTarget:self action:@selector(changeColorByRand) forControlEvents:UIControlEventTouchUpInside];
     
     [self.view addSubview:changeColorBtn];
-                                          
-    
-    
-    
-    
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -49,7 +49,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 
 #pragma mark --
 #pragma mark Private Method
@@ -63,7 +62,7 @@
     
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     [hud setMode:MBProgressHUDModeText];
-    [hud setLabelText:[colorAry objectAtIndex:randNum]];    
+    [hud setLabelText:[colorAry objectAtIndex:randNum]];
     
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_LOW, 0), ^{
         sleep(1);
@@ -92,10 +91,10 @@
     
     
     
-        
     
     
-
+    
+    
 }
 
 

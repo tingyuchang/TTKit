@@ -7,7 +7,7 @@
 //
 
 #import "TTAppDelegate.h"
-#import "TTViewController.h"
+#import "TTDemoListViewController.h"
 
 @implementation TTAppDelegate
 
@@ -18,8 +18,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    TTViewController *viewController = [[TTViewController alloc] init];
-    [self.window setRootViewController:viewController];
+    TTDemoListViewController *viewController = [[TTDemoListViewController alloc] init];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    [self.window setRootViewController:navController];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

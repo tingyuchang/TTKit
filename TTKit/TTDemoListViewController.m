@@ -8,6 +8,7 @@
 
 #import "TTDemoListViewController.h"
 #import "TTColorDemoViewController.h"
+#import "TTFlatButtonDemoViewController.h"
 
 @interface TTDemoListViewController ()
 
@@ -61,7 +62,9 @@
         case 0:
             [cell.textLabel setText:@"TTColor"];
             break;
-            
+        case 1:
+            [cell.textLabel setText:@"TTFlatButton"];
+            break;
         default:
             break;
     }
@@ -120,6 +123,10 @@
     if ([indexPath row] == 0) {
         TTColorDemoViewController *colorDemoViewController = [[TTColorDemoViewController alloc] init];
         [self.navigationController pushViewController:colorDemoViewController animated:YES];
+    }
+    if ([indexPath row] == 1) {
+        TTFlatButtonDemoViewController *flatButtonDemoViewController = [[TTFlatButtonDemoViewController alloc] init];
+        [self.navigationController pushViewController:flatButtonDemoViewController animated:YES];
     }
     
 }

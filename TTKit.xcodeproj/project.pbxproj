@@ -12,6 +12,7 @@
 		F1420ACE17DEC95C00D66B70 /* TTDemoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1420ACD17DEC95C00D66B70 /* TTDemoListViewController.m */; };
 		F1420AD117DED73600D66B70 /* TTFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F1420AD017DED73600D66B70 /* TTFlowLayout.m */; };
 		F1420AD417DEFF3600D66B70 /* TTCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F1420AD317DEFF3600D66B70 /* TTCell.m */; };
+		F1420AD817DF180900D66B70 /* TTFlatButtonDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1420AD717DF180900D66B70 /* TTFlatButtonDemoViewController.m */; };
 		F1D3080617DD7A7400627E67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D3080517DD7A7400627E67 /* UIKit.framework */; };
 		F1D3080817DD7A7400627E67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D3080717DD7A7400627E67 /* Foundation.framework */; };
 		F1D3080A17DD7A7400627E67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D3080917DD7A7400627E67 /* CoreGraphics.framework */; };
@@ -47,6 +48,8 @@
 		F1420AD017DED73600D66B70 /* TTFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTFlowLayout.m; sourceTree = "<group>"; };
 		F1420AD217DEFF3600D66B70 /* TTCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTCell.h; sourceTree = "<group>"; };
 		F1420AD317DEFF3600D66B70 /* TTCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTCell.m; sourceTree = "<group>"; };
+		F1420AD617DF180900D66B70 /* TTFlatButtonDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTFlatButtonDemoViewController.h; sourceTree = "<group>"; };
+		F1420AD717DF180900D66B70 /* TTFlatButtonDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTFlatButtonDemoViewController.m; sourceTree = "<group>"; };
 		F1D3080217DD7A7400627E67 /* TTKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D3080517DD7A7400627E67 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F1D3080717DD7A7400627E67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -101,6 +104,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F1420AD517DF17BE00D66B70 /* TTColor Demo */ = {
+			isa = PBXGroup;
+			children = (
+				F1420AC917DEC56500D66B70 /* TTColorDemoViewController.h */,
+				F1420ACA17DEC56500D66B70 /* TTColorDemoViewController.m */,
+				F1420ACF17DED73600D66B70 /* TTFlowLayout.h */,
+				F1420AD017DED73600D66B70 /* TTFlowLayout.m */,
+				F1420AD217DEFF3600D66B70 /* TTCell.h */,
+				F1420AD317DEFF3600D66B70 /* TTCell.m */,
+			);
+			name = "TTColor Demo";
+			sourceTree = "<group>";
+		};
 		F1D307F917DD7A7400627E67 = {
 			isa = PBXGroup;
 			children = (
@@ -143,12 +159,9 @@
 				F1D3081717DD7A7400627E67 /* TTAppDelegate.m */,
 				F1420ACC17DEC95C00D66B70 /* TTDemoListViewController.h */,
 				F1420ACD17DEC95C00D66B70 /* TTDemoListViewController.m */,
-				F1420AC917DEC56500D66B70 /* TTColorDemoViewController.h */,
-				F1420ACA17DEC56500D66B70 /* TTColorDemoViewController.m */,
-				F1420ACF17DED73600D66B70 /* TTFlowLayout.h */,
-				F1420AD017DED73600D66B70 /* TTFlowLayout.m */,
-				F1420AD217DEFF3600D66B70 /* TTCell.h */,
-				F1420AD317DEFF3600D66B70 /* TTCell.m */,
+				F1420AD517DF17BE00D66B70 /* TTColor Demo */,
+				F1420AD617DF180900D66B70 /* TTFlatButtonDemoViewController.h */,
+				F1420AD717DF180900D66B70 /* TTFlatButtonDemoViewController.m */,
 				F1D3080E17DD7A7400627E67 /* Supporting Files */,
 			);
 			path = TTKit;
@@ -317,6 +330,7 @@
 				F1420ACE17DEC95C00D66B70 /* TTDemoListViewController.m in Sources */,
 				F1420AD117DED73600D66B70 /* TTFlowLayout.m in Sources */,
 				F1420AD417DEFF3600D66B70 /* TTCell.m in Sources */,
+				F1420AD817DF180900D66B70 /* TTFlatButtonDemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

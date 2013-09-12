@@ -14,13 +14,16 @@
 
 @end
 
-@implementation TTDemoListViewController
+@implementation TTDemoListViewController{
+    NSArray *kitAry;
+}
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
     if (self) {
-        // Custom initialization
+        kitAry = @[@"TTColor", @"TTFlatButton"];
+
     }
     return self;
 }
@@ -31,6 +34,9 @@
 
     [self.navigationItem setTitle:@"TTKIT"];
     [self.navigationController.navigationBar setTintColor:[UIColor blackColor]];
+    
+    
+        
 }
 
 - (void)didReceiveMemoryWarning
@@ -45,7 +51,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 6;
+    return [kitAry count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -56,22 +62,8 @@
         cell = [[UITableViewCell  alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
-    
-    
-    switch ([indexPath row]) {
-        case 0:
-            [cell.textLabel setText:@"TTColor"];
-            break;
-        case 1:
-            [cell.textLabel setText:@"TTFlatButton"];
-            break;
-        default:
-            break;
-    }
-    
-    
-    
-    
+    [cell.textLabel setText:[kitAry objectAtIndex:[indexPath row]]];
+
     
     return cell;
 }
